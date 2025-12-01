@@ -1,7 +1,6 @@
 # 📄 VeriDoc-AI-Intelligent-PDF-Compliance-Checker
 
 RuleGuard AI is a **super-simple full-stack web application** that validates any PDF document using rule-based checks powered by an LLM.
-This project is created as the solution for the **NIYAMR AI Full-Stack Assignment (48 Hours)**.
 
 The app performs **three core actions**:
 
@@ -64,94 +63,13 @@ Each rule returns:
 
 ### **Backend**
 
-* Node.js + Express (or FastAPI if Python-based)
+* Next.js
 * PDF text extraction:
 
   * `pdf-parse` 
 * LLM Provider:
 
   * Gemini
-
----
-
-## ⚙️ Installation & Setup
-
-### **1. Clone the Repository**
-
-```sh
-git clone https://github.com/yourusername/ruleguard-ai.git
-cd ruleguard-ai
-```
-
----
-
-## 🔧 Backend Setup
-
-### **2. Go to backend folder**
-
-```sh
-cd backend
-```
-
-### **3. Install dependencies**
-
-```sh
-npm install
-```
-
-### **4. Create `.env` file**
-
-```
-LLM_API_KEY=your_key_here
-LLM_MODEL=gemini-2.5-flash
-PORT=5000
-```
-
-### **5. Start backend**
-
-```sh
-npm start
-```
-
-Backend runs on:
-
-```
-http://localhost:5000
-```
-
----
-
-## 🎨 Frontend Setup
-
-### **6. Go to frontend folder**
-
-```sh
-cd ../frontend
-```
-
-### **7. Install dependencies**
-
-```sh
-npm install
-```
-
-### **8. Create `.env.local` file**
-
-```
-NEXT_PUBLIC_API_URL=http://localhost:5000
-```
-
-### **9. Start frontend**
-
-```sh
-npm run dev
-```
-
-Frontend runs on:
-
-```
-http://localhost:3000
-```
 
 ---
 
@@ -174,36 +92,3 @@ PDF Text: {{text}}
 Rule: {{rule}}
 ```
 
----
-
-## 🖼️ Screenshot
-
-*Add one screenshot of your UI here as required by the assignment.*
-
-```
-/screenshots/ui-example.png
-```
-
----
-
-## 📦 Production Build
-
-### Frontend
-
-```sh
-npm run build
-npm start
-```
-
-### Backend
-
-```sh
-npm run build
-npm start
-```
-
----
-
-
-
-Just tell me!
